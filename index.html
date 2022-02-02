@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <script>
+            if(window.location.hash){
+                console.log('This is the hash for the location: ' + location.hash.substr(1).split('=')[1]);
+            }else{
+                window.location.href = "https://identity.fortellis.io/oauth2/aus1p1ixy7YL8cMq02p7/v1/authorize?client_id={yourClientID}&response_type=token&scope=openid&redirect_uri=http://localhost:80/&state=f8f5df39-cac3-41ea-a56c-6f6cf18f1be7&nonce=true"
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Hello World!</h1>
+    </body>
+</html>
